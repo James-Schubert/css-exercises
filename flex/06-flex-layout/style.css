@@ -2,20 +2,67 @@
 
 body {
   height: 100vh;
+  
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  
 }
 
 img {
   width: 600px;
 }
 
+.links {
+list-style: none;
+display: flex;
+}
+
+.right-links {
+  margin-right: 30px;
+}
+
+.header, .footer{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+.footer{
+  background-color: lightgray;
+}
+
+.content{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+.body-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+
+a{
+  text-decoration: none;
+  color: darkslategray;
+  margin: 10px;
+}
+
+
+
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
+  margin-left: 8px;
+  font-weight: 600;
 }
 
 input {
